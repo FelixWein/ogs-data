@@ -39,5 +39,13 @@
             <element p1="3" p2="2" p3="11"/>
             <element p1="2" p2="10" p3="11"/>
         </surface>
+        <surface id="2" name="back">
+            <element p1="0" p2="1" p3="2"/>
+            <element p1="2" p2="0" p3="3"/>
+        </surface>
+        <surface id="3" name="front">
+            <element p1="8" p2="9" p3="10"/>
+            <element p1="10" p2="8" p3="11"/>
+        </surface>
     </surfaces>
 </OpenGeoSysGLI>
