@@ -324,6 +324,22 @@
                     <component>0</component>
                     <parameter>zero_u</parameter>
                 </boundary_condition>
+
+                <boundary_condition>
+                    <geometrical_set>single_fracture_3D</geometrical_set>
+                    <geometry>front</geometry>
+                    <type>Dirichlet</type>
+                    <component>2</component>
+                    <parameter>zero_u</parameter>
+                </boundary_condition>
+
+                <boundary_condition>
+                    <geometrical_set>single_fracture_3D</geometrical_set>
+                    <geometry>back</geometry>
+                    <type>Dirichlet</type>
+                    <component>2</component>
+                    <parameter>zero_u</parameter>
+                </boundary_condition>
             </boundary_conditions>
         </process_variable>
     </process_variables>
